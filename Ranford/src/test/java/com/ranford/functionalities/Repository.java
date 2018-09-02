@@ -156,7 +156,7 @@ public class Repository extends Base{
 		driver.close();
 		extentreport.endTest(extenttest);
 		extentreport.flush();   //build-in function
-		System.out.println("Oh my god");
+		System.out.println("Oh! my god");
 	}
 	
 	
