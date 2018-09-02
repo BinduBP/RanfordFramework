@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23585" started-at="2018-09-02T10:01:00Z" finished-at="2018-09-02T10:01:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23585" started-at="2018-09-02T10:01:00Z" finished-at="2018-09-02T10:01:24Z">
+      <class name="com.ranford.functionalities.TestExecution">
+        <test-method status="PASS" signature="verify_launch()[pri:1, instance:com.ranford.functionalities.TestExecution@19d02cb]" name="verify_launch" duration-ms="13296" started-at="2018-09-02T10:01:00Z" finished-at="2018-09-02T10:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="verify_login()[pri:2, instance:com.ranford.functionalities.TestExecution@19d02cb]" name="verify_login" duration-ms="3541" started-at="2018-09-02T10:01:13Z" finished-at="2018-09-02T10:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="CreateNewBranch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.ranford.functionalities.TestExecution@19d02cb]" name="CreateNewBranch" duration-ms="4905" started-at="2018-09-02T10:01:17Z" data-provider="branch" finished-at="2018-09-02T10:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Newbranch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12,btm 2nd stage, bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[560076]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewBranch -->
+        <test-method status="PASS" signature="verify_logout()[pri:4, instance:com.ranford.functionalities.TestExecution@19d02cb]" name="verify_logout" duration-ms="1511" started-at="2018-09-02T10:01:22Z" finished-at="2018-09-02T10:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout -->
+      </class> <!-- com.ranford.functionalities.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
