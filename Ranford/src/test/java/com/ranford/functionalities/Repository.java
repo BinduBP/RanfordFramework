@@ -150,15 +150,14 @@ public class Repository extends Base{
 		
 	}
 
-	
 	public void logout_Application()
 	{
 		AdminPage.branches_button(driver).click();
 		driver.close();
 		extentreport.endTest(extenttest);
 		extentreport.flush();   //build-in function
+		System.out.println("Oh my god");
 	}
 	
 	
-
 }
